@@ -1,0 +1,23 @@
+# Vivado generated files
+.cache/
+.hw/
+.ip_user_files/
+.sim/
+.gen/
+.vivado/
+
+# Vivado logs and journals
+*.jou
+*.log
+*.str
+
+# Simulation files
+*.wdb
+
+# Generated bitstreams
+*.bit
+*.bin
+
+# Temporary files
+*.tmp
+*.backup
