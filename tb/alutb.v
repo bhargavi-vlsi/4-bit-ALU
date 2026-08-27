@@ -93,4 +93,3 @@ $display("TEST COMPLETED WITH %0d ERRORS",error);
 $finish;
 end
 endmodule
-//run 100 us
