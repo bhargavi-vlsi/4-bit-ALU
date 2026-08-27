@@ -4,7 +4,6 @@ A 4-bit Arithmetic Logic Unit (ALU) designed and verified using Verilog HDL.
 The ALU supports six arithmetic and bitwise operations selected using a 3-bit operation code. The design was simulated, exhaustively verified, synthesized, and implemented using AMD Xilinx Vivado.
 ---
 ## Project Highlights
-
 - 4-bit combinational ALU
 - 6 arithmetic and bitwise operations
 - Exhaustive verification with 1,536 test cases
@@ -86,11 +85,11 @@ Bonded IOB	15
 ## Implementation
 The synthesized design was successfully placed and routed using Vivado.
 Post-Implementation Timing Summary
-Metric	               Result
-WNS	                    inf
-TNS	                    0.000 ns
-WHS	                    inf
-THS	                    0.000 ns
+Metric	                Result
+WNS	                inf
+TNS	                0.000 ns
+WHS	                inf
+THS                     0.000 ns
 Setup Failing Endpoints	0
 Hold Failing Endpoints	0
 
@@ -98,14 +97,13 @@ The ALU is a purely combinational design and does not contain a clock or sequent
 
 ## Hardware Testing
 Physical FPGA hardware testing was not performed because a physical FPGA development board was not available.
-
 The design was successfully:
-Simulated
-Exhaustively verified
-Synthesized
-Placed and routed
-Analyzed for resource utilization
-Analyzed using Vivado timing reports
+-Simulated
+-Exhaustively verified
+-Synthesized
+-Placed and routed
+-Analyzed for resource utilization
+-Analyzed using Vivado timing reports
 
 Bitstream generation was not completed because board-specific physical pin (LOC) and I/O standard (IOSTANDARD) constraints were not available.
 
